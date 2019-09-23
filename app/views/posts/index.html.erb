@@ -1,0 +1,7 @@
+<center><h1> All your posts are found here!</h1></center>
+<br>
+<% @posts.each do |post| %>
+    <h4><%= post.title %></h4>
+    <%= post.description %>
+    <hr>
+<% end %>
